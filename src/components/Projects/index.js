@@ -45,7 +45,7 @@ const Projects = () => {
                     ) : null}
                     {item.website !== "" ? (
                       <a href={item.website} target="blank">
-                        Github
+                        Website
                       </a>
                     ) : null}
                   </div>
