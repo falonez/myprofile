@@ -79,6 +79,7 @@
   background-color: var(--Teal);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {

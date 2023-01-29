@@ -11,24 +11,16 @@ const Projects = () => {
       description:
         "Application for sending letters to students Application for submitting letters for college students at UPI",
       image: ImageUPI,
-      detail: "#/",
-      website: "#/",
+      github: "",
+      website: "",
     },
-    // {
-    //   id: 2,
-    //   title: "Project 1",
-    //   description: "Project 2 description",
-    //   image: "https://i.ibb.co/0nQqZ3r/1.png",
-    //   detail: "#/",
-    //   website: "#/",
-    // },
     {
-      id: 3,
+      id: 2,
       title: "Application for Booking Tiket",
       description: "Flight ticket booking application with complete features",
       image: Flywithme,
-      detail: "#/",
-      website: "#/",
+      github: "https://github.com/Binar-FP/FE-Final-Project",
+      website: "https://flywithme.my.id/",
     },
   ];
   return (
@@ -46,8 +38,16 @@ const Projects = () => {
                   <h3>{item.title}</h3>
                   <p>{item.description}</p>
                   <div className="link-projects">
-                    <a href={item.detail}>Detail</a>
-                    {/* <a href="#/">{item.website}</a> */}
+                    {item.github !== "" ? (
+                      <a href={item.github} target="blank">
+                        Github
+                      </a>
+                    ) : null}
+                    {item.website !== "" ? (
+                      <a href={item.website} target="blank">
+                        Github
+                      </a>
+                    ) : null}
                   </div>
                 </div>
               </div>
