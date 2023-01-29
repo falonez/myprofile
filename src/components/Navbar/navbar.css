@@ -1,10 +1,13 @@
 .navbar {
-  background-color: var(--primary);
+  background-color: var(--three);
   padding: 1rem 7%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid var(--Teal);
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 .navbar .navbar-logo a {
@@ -61,7 +64,7 @@
   }
 
   .navbar .navbar-links {
-    background-color: var(--primary);
+    background-color: var(--three);
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -71,6 +74,7 @@
     left: 0;
     right: 0;
     color: black;
+    position: fixed;
   }
   .navbar .navbar-links a {
     margin: 0px 0.5rem;

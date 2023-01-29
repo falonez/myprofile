@@ -11,20 +11,23 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-links">
-          <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/projects">Projects</a>
-          <a href="/contact">Contact</a>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
         </div>
 
         <div className="navbar-extra">
-          <a href="/">
+          <a href="https://github.com/falonez" target={"blank"}>
             <Github size={20} className="icon" />
           </a>
-          <a href="/">
+          <a
+            href="https://www.linkedin.com/in/fathan-mubarok-2597171b5/"
+            target={"blank"}
+          >
             <Linkedin size={20} className="icon" />
           </a>
-          <a href="/">
+          <a href="https://www.instagram.com/falonez15/" target={"blank"}>
             <Instagram size={20} className="icon" />
           </a>
         </div>
