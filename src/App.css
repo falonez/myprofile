@@ -1,8 +1,12 @@
 :root {
   --primary: #002b5b;
-  --secondary: #2b4865;
+  --secondary: #1c315e;
   --three: #256d85;
   --Teal: #8fe3cf;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 * {
