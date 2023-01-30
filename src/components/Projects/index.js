@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
-import ImageUPI from "../../assets/images/upi/Picture2.png";
-import Flywithme from "../../assets/images/flywithme/Cover.png";
+import ImageUPI from "../../assets/images/upi/Picture2.webp";
+import Flywithme from "../../assets/images/flywithme/Cover.webp";
 
 const Projects = () => {
   const data = [
