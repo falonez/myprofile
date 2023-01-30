@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.css";
 import ImageUPI from "../../assets/images/upi/Picture2.webp";
 import Flywithme from "../../assets/images/flywithme/Cover.webp";
+import Roxy from "../../assets/images/roxy/cover.webp";
 
 const Projects = () => {
   const data = [
@@ -16,6 +17,14 @@ const Projects = () => {
     },
     {
       id: 2,
+      title: "Application Roxy pharmacy",
+      description: "Applications used in data processing pharmacies",
+      image: Roxy,
+      github: "",
+      website: "https://apotek.mahanuri.com",
+    },
+    {
+      id: 3,
       title: "Application for Booking Tiket",
       description: "Flight ticket booking application with complete features",
       image: Flywithme,
