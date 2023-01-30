@@ -23,8 +23,8 @@ const Contact = () => {
               </div>
             </div>
             <div className="form-group">
-              <label htmlFor="name">Message</label>
-              <textarea placeholder="Enter Message"></textarea>
+              <label htmlFor="message">Message</label>
+              <textarea placeholder="Enter Message" id="messagge"></textarea>
             </div>
             <div className="form-group">
               <button className="Btn-CTA">Send</button>

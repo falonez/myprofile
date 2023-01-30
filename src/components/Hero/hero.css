@@ -66,6 +66,7 @@
 
   .image-hero {
     width: 70%;
+    object-fit: cover;
   }
 }
 
