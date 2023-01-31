@@ -32,11 +32,21 @@ const Projects = () => {
       website: "https://flywithme.my.id/",
     },
   ];
+
+  window.addEventListener("scroll", function () {
+    console.log(window.pageYOffset);
+    if (window.pageYOffset >= 1200) {
+      document.getElementById("menu-card-projects").classList.add("active");
+      document.getElementById("text-project").classList.add("active");
+    }
+  });
   return (
     <>
       <div className="projects" id="projects">
-        <h1>Project</h1>
-        <div className="menu-card-projects">
+        <h1 className="text-project" id="text-project">
+          Project
+        </h1>
+        <div className="menu-card-projects" id="menu-card-projects">
           {data.map((item) => {
             return (
               <div className="card-projects">
