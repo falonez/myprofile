@@ -25,6 +25,7 @@
 
 .about-image {
   margin: 0 5%;
+  opacity: 0;
 }
 
 .about-image img {
@@ -33,6 +34,7 @@
 }
 
 .about-text {
+  opacity: 0;
   margin: 0 5%;
 }
 
@@ -121,5 +123,31 @@
   .about-text .about-subtitle {
     font-size: 1rem;
     text-align: justify;
+  }
+}
+.active-about {
+  position: relative;
+  left: -600px;
+  animation: slideIn 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(600px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-600px);
+    opacity: 1;
   }
 }
